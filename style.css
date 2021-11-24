@@ -355,6 +355,7 @@ a:hover {
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
+
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
@@ -378,6 +379,7 @@ a:hover {
         margin-right: 0px;
         margin-top: 20px;
     }
+
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
