@@ -8,6 +8,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.bg-banniere {
+    background-image: url("img/la-chouette-agence-banniere.webp");
+}
 
 .text-description {
     font-size: 26px;
@@ -799,11 +802,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
-}
-
-.bg-presentation {
+e-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
 
