@@ -628,6 +628,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    line-height: 0.9em;
 }
 
 .text-center {
