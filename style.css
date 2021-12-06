@@ -640,8 +640,7 @@ a[data-lightbox]:hover img {
 }
 
 .descript {
-    font-size: 24px !important;
-
+    font-size: 26px !important;
 }
 
 h3,
@@ -681,6 +680,7 @@ label,
 
 p {
     font-size: 18px;
+    color: rgb(31, 31, 31);
 }
 
 .tight-width-whitespace {
@@ -705,7 +705,7 @@ p {
 h2 {
     font-size: 24px !important;
     line-height: 1.4em;
-    text-shadow: rgb(255, 255, 255) 2px 0 2px !important;
+    text-shadow: rgb(255, 255, 255) 0.6px 0 0.6px !important;
 }
 
 h3 {
