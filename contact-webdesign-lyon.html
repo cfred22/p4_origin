@@ -84,27 +84,27 @@
 						<div class="col-sm-6">
 							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-									<label>
+									<label for="nom de votre société">
 										Nom
 									</label>
-									<input id="name" class="form-control" required placeholder="Nom de votre société">
+									<input id="name" class="form-control" required placeholder="Nom de votre société" title="Entrez votre nom" required>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="email">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" placeholder="Votre adresse email">
+									<input id="email" class="form-control" type="email" placeholder="Votre adresse email" title="Email" required>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="comment nous avez-vous connu">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" placeholder="Réseaux sociaux, journaux, bouche à oreille...">
+									<input class="form-control" type="email" required id="input_504" placeholder="Réseaux sociaux, journaux, bouche à oreille..." title="Comment nous avez-vous connu" required>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="brief de votre projet">
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Parlez nous de vos projets !"></textarea>
+									</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Parlez nous de vos projets !" title="Bruef de votre projet" required></textarea>
 								</div> 
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
