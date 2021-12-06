@@ -639,6 +639,11 @@ a[data-lightbox]:hover img {
     font-size: 24px;
 }
 
+.descript {
+    font-size: 24px !important;
+
+}
+
 h3,
 h4,
 h5,
@@ -698,9 +703,9 @@ p {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 24px !important;
     line-height: 1.4em;
-    text-shadow: rgb(255, 255, 255) 2px 0 5px !important;
+    text-shadow: rgb(255, 255, 255) 2px 0 2px !important;
 }
 
 h3 {
