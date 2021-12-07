@@ -727,6 +727,8 @@ h3 {
 h1 {
     color: #000000;
     font-weight: bold;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+
 }
 
 h4 {
@@ -758,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(248,123,65, 0.863);
+    background-color: #f87b41;
     padding: 40px 40px 40px 40px;
     border-radius: 5px;
 }
