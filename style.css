@@ -127,6 +127,8 @@ a:hover {
 
 .d-bloc h2{
     color: #000000 !important;
+    text-shadow: rgb(255, 255, 255) 2px 0 5px;
+
     
 }
 
@@ -706,7 +708,6 @@ p {
 h2 {
     font-size: 24px !important;
     line-height: 1.4em;
-    text-shadow: rgb(255, 255, 255) 0.8px 0 3px !important;
 }
 
 h3 {
