@@ -124,15 +124,12 @@ a:hover {
 .d-bloc p {
     color: rgba(255, 255, 255, .6);
 }
-a:focus-visible {
-    outline: 2px solid red !important;
+a:focus {
+    outline: 6px solid #ffee03 !important;
 } 
-
 
 .d-bloc h2{
     color: #000000 !important;
-
-    
 }
 
 .d-bloc .a-btn:hover,
