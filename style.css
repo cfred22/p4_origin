@@ -124,6 +124,10 @@ a:hover {
 .d-bloc p {
     color: rgba(255, 255, 255, .6);
 }
+a:focus-visible {
+    outline: 2px solid red !important;
+} 
+
 
 .d-bloc h2{
     color: #000000 !important;
