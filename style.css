@@ -355,48 +355,7 @@ a:focus-visible {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
 
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -702,6 +661,22 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
+.flex-map {
+    display: flex;
+}
+.map {
+    margin-top: 20px;
+}
+.flex-form {
+    width: 100% !important;
+    padding-right: 50px !important;
+}
+
+.iframe {
+    padding-top: 20px;
+}
+
+
 
 .social {
     max-width: 400px;
@@ -910,6 +885,9 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    .flex-map {
+        flex-wrap: wrap;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1042,15 +1020,9 @@ h4 {
         max-width: 150px;
         margin: auto;
     }
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere-mini.webp");
-    }
-    .bg-presentation {
-        background-image: url("img/image-de-presentation-mini.webp");
-    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .bloc-mob-center-text {
         text-align: center;
     }
@@ -1076,4 +1048,11 @@ h4 {
         background-color: black;
         background-color: #F3966B !important;
     }
+    .flex-map {
+        flex-wrap: wrap;
+    }
+    .flex-form{
+        width: 100% !important;
+    }
 }
+
