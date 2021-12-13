@@ -1023,6 +1023,7 @@ h4 {
     .flex-form {
         width: 100%!important;
         padding-right: 20px!important;
+    }    
 }
 
 @media (max-width: 768px) {
