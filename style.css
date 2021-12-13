@@ -1020,6 +1020,9 @@ h4 {
         max-width: 150px;
         margin: auto;
     }
+    .flex-form {
+        width: 100%!important;
+        padding-right: 20px!important;
 }
 
 @media (max-width: 768px) {
