@@ -125,7 +125,7 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 a:focus-visible {
-    outline: 3px solid #ffee03 !important;
+    outline: 3px dashed #f0d800 !important;
     outline-offset: 4px;
 } 
 
